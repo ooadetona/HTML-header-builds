@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2B2E35;
+    padding: 0.1rem;
+    align-items: center;
+}.top div:first-child{
+    display: flex;
+    align-items: center;
+    color:#FCF9F8;
+}
+.top div:nth-child(2){
+    display: flex;
+    padding: 0.5rem;
+}
+.email img{
+    width:40px;
+    height: 40px;
+    margin-right: -5px;
+}
+.search-bar img {
+    width: 23px;
+    height: 20px;
+}
+.search-bar input{
+    border: none;
+    padding-left: 10px;
+    background-color: #25262B;
+    color: #FCF9F8;
+}
+.search-bar button{
+    border: none;
+    background-color: #25262B;
+}
+.mid div{
+    display: flex;
+    align-items: center;
+    background-color: #25262B;
+}
+.mid div img{
+  width: 15rem;
+  height:auto;
+  margin-right: -5rem;
+}
+.mid div p{
+    font-size: 5rem;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    color:#FCF9F8;
+    margin-top: -2rem;
+}
+.mid nav{
+    display: flex;
+    gap: 3.5rem;
+    padding: 1rem 5rem;
+    background-color: #25262B;
+    box-shadow: 0 2px 10px rgba(252, 249, 248, 0.08);
+}
+.mid nav li{
+    list-style: none;
+}
+.mid nav li:first-child a{
+    color: #F66149;
+}
+.mid nav li a{
+    color:#FCF9F8;
+    text-decoration: none;
+}
+.mid nav li a:hover{
+    color: darkgrey;
+}
+.header.bottom{
+    display: flex;
+    background-color: #F66149;
+    color:#FCF9F8;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    gap: 10rem;
+    padding: 1rem;
+}
+.header.bottom .ada{
+    display: flex;
+    align-items: center;
+}
+.ada img {
+    width: 100px;
+    height: auto;
+    margin-right: -1rem;
+    
+}
+
+/*......................................................NEWSPAPER CSS..................................................................... */
+.up.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #03132D;
+    color: #FCF9F8;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left div{
+    display: flex;
+    background-color: #083B6E;
+    justify-content: center;
+    margin: 0 2rem;
+}
+.left div img{
+    width:4rem;
+    padding: 0;
+    margin-right: -1.5rem;
+}
+.left div p{
+    padding: 1rem;
+    margin-left: -0.5rem;
+}
+.right{
+    display: flex;
+    gap:0.5rem;
+    align-items: center;
+    margin: 0 4rem;
+}
+.right input{
+     background-color: #03132D;
+     color: #FCF9F8;
+     border: none;
+}
+.right img{
+    width:2rem
+}
+.right p{
+    padding: 1rem 0.5rem;
+    font-weight: bold;
+    color: #FCF9F8;
+}
+.middle.container{
+    display: flex;
+    padding: 2rem 7rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.middle.container p{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #03132D;
+}
+.middle.container img{
+    width: 100px;
+}
+small{
+    color:#7F818B;
+    text-align: left;
+}
+#symbol{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: -0.5rem;
+}
+.down.container{
+    display: flex;
+    gap: 6rem;
+    padding: 2rem 0.5rem 0.5rem 7rem;
+}
+.down.container li{
+    list-style: none;
+}
+.down.container li a{
+    text-decoration: none;
+    color:#7F818B
+}
+.down.container li select{
+    border: none;
+}
+.down.container li a:hover{
+    color: #F66149;
+}
+footer{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* ..........................................................Blaskan............................................................................. */
+.navbar-1{
+    display: flex;
+    justify-content: right;
+    gap:2rem;
+    align-items: center;
+    padding: 1rem;
+    color:#7F818B;
+    background-color: #FCF9F8;
+}
+.navbar-1 input{
+    border: none;
+    background-color: #FCF9F8;
+}
+.navbar-1 button{
+    border: none;
+    background-color: #FCF9F8;
+}
+.navbar-1 button img {
+    width: 25px;
+    margin-left: -2rem;
+}
+.navbar-1 a{
+    font-weight: bold;
+}
+.navbar-1 a:hover{
+    color:#03132D
+}
+.navbar-2{
+    background-color: #FCF9F8;
+    padding: 1rem;
+}
+.navbar-2 div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding: 1rem 1rem;
+}
+.navbar-2 div:first-child{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+
+}
+.navbar-2 div:first-child p{
+    font-family: "Lobster", sans-serif;
+    font-weight:lighter;
+    font-style: italic;
+ }
+.navbar-2 div:nth-child(2) a{
+    text-decoration: none;
+    color:#03132D
+}
+.navbar-2 div:nth-child(2) a:hover{
+    color:#7F818B
+}
+.navbar-2 div:nth-child(2) select{
+    border:none;
+    color:#03132D ;
+    font-size:medium;
+    background-color: transparent;
+}
+.navbar-2 div:nth-child(2) select:hover{
+    color: #7F818B;
+}

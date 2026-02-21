@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+.header.top{
+    display: flex;
+    justify-content: space-evenly;
+    padding:5px;
+    align-items: center;
+    background-color: cornsilk;
+}
+.contact p, .location p{
+    margin: 5px 0;
+}
+.title, .contact, .location{
+    display: flex;
+    align-items: center;
+    margin-left: -5%; 
+
+}
+.title > img, .contact > img, .location > img{ 
+    width:100px;
+    height:100px;
+    margin-right: -15px;
+}
+#equipo p:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+.contact p:first-child, .location p:first-child{
+    color:orange;
+    /* font-size: large; */
+    font-weight: bold;
+}
+.header.bottom{
+    background-color: rgb(4, 46, 79);
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu li{
+    list-style: none;
+    padding: 1rem 2rem;
+}
+.menu li a{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover{
+    color: wheat
+}
+/* .menu li{
+    color:navy
+} */
+
+.selected{
+    background-color: orange;
+}
+.quote{
+    background-color: cornsilk;
+
+}
+#quote{
+    color: rgb(4, 46, 79);
+    font-size: 14px;
+    font-weight: 500;
+}
+.quote:hover{
+    background-color: orange;
+}
+
+/*..........................................Consulting.html.........................................................................*/
+.head.up{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(4, 46, 79);
+    align-items: center;
+}
+.up.schedule{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding:0 10px;
+
+}
+.up.schedule img{
+    width: 60px;
+    height: 60px;
+    margin-right: -50px;
+}
+.up.schedule p{
+    color:white;
+    margin: 0 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.up.logo{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0 100px;
+}
+.up.logo li{
+    list-style: none;
+    padding: 10px;
+}
+.up.logo li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.up.logo li a:hover{
+    color:wheat
+}
+/*HEADER DOWN */
+.head.down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: floralwhite;
+    /* padding: 15px; */
+}
+.head.down nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:30px;
+    padding: 0 100px;
+}
+.head.down nav li{
+    list-style: none;
+    /* padding: 0 10px; */
+}
+.head.down nav li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.5rem;
+    color: rgb(4, 46, 79);
+}
+.head.down nav li a:hover{
+    color:wheat;
+}
+.head.down > div{
+    padding: 0px 0px 0px 200px;
+}
+.head.down div p{
+    color: rgb(4, 46, 79);
+    font-size: 20px;
+    font-weight: 600;
+}
+span{
+    color:red;
+}
+/* .catch{
+    background-color: rgb(4, 46, 79);
+}
+#me {
+    color : white;
+}
+#me:hover {
+    color: wheat;
+} */
+
+/*............................................................................ACTIVELLO CSS...........................................................................*/
+.top.level{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08); /*CLEAN AND SUBTLE*/
+}
+.top.level > nav{
+    padding: 1.5rem;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.top.level nav .options{
+    display: flex;
+    gap:4rem;
+    margin: 0 5rem;
+}
+.top.level nav .options li{
+    list-style: none;
+}
+.top.level nav .options li:first-child a{
+    color: blueviolet;
+}
+.top.level nav .options li a{
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+}
+.top.level nav .options li a:hover{
+    color:purple;
+}
+#about-tests, #level-1{
+    align-items: center;
+    font-weight: bold;
+}
+.top.level select{
+    border: none;
+    background-color: transparent;
+}
+.top.level button{
+    border: none;
+    background-color: white;
+}
+.top.level button img{
+    width: 40px;
+    height: 40px
+}
+.top.level .searchbar{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+.top.level input{
+    border: none;
+    font-size: medium;
+}
+.bottom.level{
+    width: 100%;
+    text-align: center;
+}
+.bottom.level p:first-child{
+    font-size: 3rem;
+    padding-top: 20px;
+    color: purple;
+}
+.bottom.level small{
+    color: lightgray;
+}
+
+
+
+
